@@ -1,21 +1,23 @@
 # matchmaking-lab
 
-Forma partidas por MMR, região e ping e aplica atualização Elo.
+Build player matches using MMR range, region, and ping limits. See the selected pairs and update their ratings with an Elo result.
 
-## Desktop
+## Run
 
-```sh
+Requires the .NET 10 SDK. Browser builds also need the WebAssembly workload: `dotnet workload install wasm-tools`.
+
+### Desktop
+
+~~~sh
 dotnet run --project MatchmakingLab.Desktop/MatchmakingLab.Desktop.csproj
-```
+~~~
 
-## Browser
+### Browser
 
-Requer o workload wasm-tools do .NET 10.
-
-```sh
+~~~sh
 dotnet run --project MatchmakingLab.Browser/MatchmakingLab.Browser.csproj
-```
+~~~
 
-## Exemplo
+## Example
 
-Busque partidas com a faixa MMR padrão e registre o resultado do primeiro par.
+Run matchmaking with the default MMR range, then record the result of a pair.
