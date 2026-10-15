@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MatchmakingLab.Browser/MatchmakingLab.Browser.csproj" />
+  <Project Path="MatchmakingLab.Desktop/MatchmakingLab.Desktop.csproj" />
+  <Project Path="MatchmakingLab/MatchmakingLab.csproj" />
+</Solution>
